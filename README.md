@@ -51,6 +51,10 @@ pip install pykrige numpy
 5.  **Run**: The plugin calculates the Kriging surface, saves it as a `.tif` file on your desktop, and adds it to your project.
 6.  **Masking**: For a clean result, I used a mask layer of the **Drôme watershed** to clip the final output to the study area.
 
+Example of result:
+
+
+<img width="852" height="568" alt="Capture d&#39;écran 2026-01-08 225721" src="https://github.com/user-attachments/assets/eafbd286-85cb-476b-94bb-8c8b46aa6d9a" />
 
 ---
 
@@ -58,7 +62,7 @@ pip install pykrige numpy
 
 Building **HydroKrig** was a great learning experience in combining different Python ecosystems within QGIS. It serves as a personal proof of concept for automating geostatistical workflows.
 
-It is a work in progress, and I am continuously looking for ways to refine the logic and improve the user experience.
+It is a work in progress, and I am continuously looking for ways to refine the logic and improve the user experience. You'll find more details on my blog: https://www.briaslab.fr/blog/?action=view&url=building-a-qgis-plugin-with-python-qt-and-pykrige
 
 ---
 
